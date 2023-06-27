@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgba(255,255,255,.3);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    height: 60px;
+}
+
+.nav .logo{
+    font-size: 25px;
+    color: black;
+    
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 20px;
+    transition: .4s;
+}
+
+.nav-menu ul a:hover{
+    color: cornflowerblue;
+}
+
+body {
+    background-image: url('Images/bg-image-flowers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+.container {
+    width: 1100px;
+    height: 500px;
+    background: #ccc;
+    margin: 120px auto;
+    display: flex;
+}
+
+.col {
+    height: 100%;
+    flex: 1;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 40px;
+    position: relative;
+    transition: 0.9s;
+}
+
+.col:nth-child(1) {
+    background: cornsilk;
+}
+
+.col:nth-child(2) {
+    background: antiquewhite;
+}
+
+.col:nth-child(3) {
+    background: whitesmoke;
+}
+
+h2 {
+    color: black;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 2px 2px 2px 2px;
+}
+
+.info {
+    max-width: 230px;
+    font-size: 14px;
+    margin: 28px 0;
+    display: none;
+    color: black;
+}
+
+.col img{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.col:hover{
+    flex-grow: 4.5;
+}
+
+.col:hover .info{
+   display: block;
+}
+
+.col:hover h2{
+    text-align: left;
+}

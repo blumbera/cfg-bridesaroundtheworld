@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.bg-vid{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgba(255,255,255,.3);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    height: 60px;
+}
+
+.nav .logo{
+    font-size: 25px;
+    color: black;
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 20px;
+    transition: .4s;
+}
+
+.nav-menu ul a:hover{
+    color: cornflowerblue;
+}
+
+.header-content{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: calc(100% - 80px);
+    text-align: center;   
+}
+
+.header-content h1{
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.header-content p{
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    margin: 5px 0 40px 0;
+    font-size: 20px;
+}
+
+.header-content input[type=button]{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(0,0,0,.3);
+    cursor: pointer;
+    /* transition: background .4s; */
+}
+
+.header-content input[type=button]:hover{
+    background-color: rgba(0,0,0,.7);
+}
+
+#page_2 {
+    background-image: url(Images/top-view-natural.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    padding: 50px 50px 50px 50px;
+}
+
+img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 40px;
+    margin: auto;
+}
+
+.column img {
+    width:50% !important;
+    height: auto !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 70%; */
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+#contact {
+    background-image: url(Images/bg-image-flowers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 100vh;
+}
+
+    /* /////////////INDIVIDUAL PADE--INDIA///////////////// */
+
+.bride-head{
+  text-align: center;
+  position: relative;
+}
+.bride-head img{
+  width: 100%;
+  height: 60%;
+}
+.bride-head h1{
+  text-align: center;
+  font-size:48px;
+  font-weight:bold;
+  position: absolute;
+  top:150px;
+  left:350px;
+  
+}
+.bride-head p{
+  text-align: center;
+  width: 50%;
+  font-size:18px;
+  margin-left:300px;
+  position: absolute;
+  line-height:1.2;
+  top:250px;
+  left:300px;
+  margin: 0 auto;
+}
+
+.brides-collections {
+  display:grid;
+  justify-content: center;
+}
+
+.brides-collections img{
+  width: 250px;
+  height:300px;
+  border: .2px solid #fff;
+  border-radius:4px;
+  
+}
+ h2{
+  margin:10px;
+   font-size:40px;
+   font-weight: bold;
+}
+.brides-collections .row .spacing {
+  margin-top: 10px;
+  margin-left:0px
+}
+footer {
+  text-align: center;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+
